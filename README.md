@@ -59,9 +59,9 @@ The directory contains the python scripts for the implementation. The main
 scripts is ‘speaker_identification.py’, and it can be run using command line terminal. For training over new 
 speech samples use the following command :
  
-      python keras1.py train /<path to train directory  for training> 
+      python speaker_identification.py train /<path to train directory  for training> 
  
 For testing over a pre trained model use the following command :
       
-    python keras1.py test <phone_number> /<path to test file for test >
+    python speaker_identification.py test <phone_number> /<path to test file for test >
 
